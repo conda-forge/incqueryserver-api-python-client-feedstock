@@ -114,5 +114,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@IncQueryLabs](https://github.com/IncQueryLabs/)
+* [@FuzesiMate](https://github.com/FuzesiMate/)
 
