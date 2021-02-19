@@ -11,17 +11,17 @@ source:
   sha256: 25462a009dd7fa9a48520c56a691813a62919a6c842784d6ed564fe7f9f9bcf8
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python =2.7|>=3.4
   run:
     - certifi
-    - python
+    - python =2.7|>=3.4
     - python-dateutil
     - six >=1.10
     - urllib3 >=1.15
@@ -43,4 +43,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - IncQueryLabs
+    - FuzesiMate
