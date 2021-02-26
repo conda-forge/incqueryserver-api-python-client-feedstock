@@ -1,5 +1,5 @@
 {% set name = "incqueryserver-api-python-client" %}
-{% set version = "0.17.1" %}
+{% set version = "0.18.0.post1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/incqueryserver-api-python-client-{{ version }}.tar.gz
-  sha256: 25462a009dd7fa9a48520c56a691813a62919a6c842784d6ed564fe7f9f9bcf8
+  sha256: 62da54d5887ca8a4bc49f24d4741c0c668052cb66f2ba6109a2bf44b52fc25e3
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -38,7 +38,7 @@ test:
 about:
   home: https://incquery.io
   license: Apache-2.0
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: IncQuery Servers Web API
 
 extra:
