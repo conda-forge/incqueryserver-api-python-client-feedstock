@@ -36,6 +36,7 @@ Installing `incqueryserver-api-python-client` from the `conda-forge` channel can
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `incqueryserver-api-python-client` can be installed with:
@@ -115,4 +116,8 @@ Feedstock Maintainers
 =====================
 
 * [@FuzesiMate](https://github.com/FuzesiMate/)
+* [@abelhegedus](https://github.com/abelhegedus/)
+* [@bergmanngabor](https://github.com/bergmanngabor/)
+* [@pappist](https://github.com/pappist/)
+* [@ujhelyiz](https://github.com/ujhelyiz/)
 
