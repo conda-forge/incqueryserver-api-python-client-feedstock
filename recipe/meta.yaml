@@ -1,5 +1,5 @@
 {% set name = "incqueryserver-api-python-client" %}
-{% set version = "0.26.0" %}
+{% set version = "0.27.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/incqueryserver-api-python-client-{{ version }}.tar.gz
-  sha256: dc09d59401cc3e4f92eedc3b46a030f6bfc83da7087de13447a11b0e9a91745c
+  sha256: d48e46e599e4b91ccb6ddde8addb21ff45ef2d4ac7592fbc6198a803f8182c88
 
 build:
   number: 0
