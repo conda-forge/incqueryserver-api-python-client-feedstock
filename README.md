@@ -1,11 +1,11 @@
-About incqueryserver-api-python-client
-======================================
+About incqueryserver-api-python-client-feedstock
+================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/incqueryserver-api-python-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://incquery.io
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/incqueryserver-api-python-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: IncQuery Servers Web API
 
